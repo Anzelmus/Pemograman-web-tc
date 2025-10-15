@@ -1,0 +1,32 @@
+.email{
+margin: 0;
+padding: 0;
+background-color:white;
+color: black;
+font-size:30px;
+position: absolute;
+right: 500px;
+}
+
+.main {
+text-align: center;
+}
+
+footer {
+color: white;
+background-color: #004d40;
+text-align: center;
+position: absolute;
+top: 650px;
+right: 600px;
+}
+
+.nav{
+flex-direction: column;
+}
+
+#gambar1{
+    position: absolute;
+    size: 30px;
+    top: 100px;
+}
