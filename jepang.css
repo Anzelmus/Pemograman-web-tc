@@ -1,0 +1,24 @@
+body {
+    padding: 50px;
+    margin: 50px;
+    background-color: blanchedalmond;
+}
+
+
+.flag{
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    border: 1px solid;
+}
+.circle_atas{
+background-color: red;
+height: 100px;
+width: 100px;
+border: 1px solid;
+position: absolute;
+top: 175px;
+left: 250px;
+border-radius: 50%;
+}

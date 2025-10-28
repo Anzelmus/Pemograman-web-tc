@@ -1,0 +1,23 @@
+.flag{
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    border: 1px solid;
+    flex-direction: column;
+}
+.atas{  
+background-color: #AE1C28;
+height: 40%;
+width: 100%;
+}
+.bawah{
+background-color: white;
+height: 40%;
+width: 100%;
+}
+.bawah1{
+background-color: #21468B;
+height: 40%;
+width: 100%;
+}

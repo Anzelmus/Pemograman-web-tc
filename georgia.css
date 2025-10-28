@@ -1,0 +1,51 @@
+.flag{
+    background-color: white;
+    display: flex;
+    height: 300px;
+    width: 500px;
+    border: 1px solid;
+}
+
+#gambar1{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+#gambar2{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 340px;
+}
+#gambar3{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 190px;
+    left: 60px;
+}
+#gambar4{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 190px;
+    left: 340px;
+}
+.garis{
+    height: 300px;
+    width: 50px;
+    background-color: red;
+    left: 225px;
+    position: absolute;
+}
+
+.garis1{
+    height: 50px;
+    width: 500px;
+    background-color: red;
+    top: 125px;
+    position: absolute;
+}

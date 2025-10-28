@@ -1,0 +1,65 @@
+.kakek{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}   
+.bapak1{
+    width: 100%;
+     height: 100%;
+    display: flex;
+}   
+.bapak2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}   
+.bapak3{
+    width: 100%;
+     height: 100%;
+    display: flex;
+    
+}   
+
+.anak1, 
+.anak2, 
+.anak3, 
+.anak4, 
+.anak5, 
+.anak6, 
+.anak7, 
+.anak8, 
+.anak9{
+    width: 100%;
+    height: 100%;
+    border: white solid 1px;
+} 
+
+.anak1{
+    background-color: blue;
+}
+.anak2{
+    background-color: blue;
+}.anak3{
+    background-color: blue;
+}
+
+.anak4{
+    background-color: green;
+}
+.anak5{
+    background-color: green;
+}.anak6{
+    background-color: green;
+}
+
+.anak7{
+    background-color: red;
+}
+.anak8{
+    background-color: red;
+}.anak9{
+    background-color: red;
+}
