@@ -1,6 +1,87 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
 
-.hr{
-font-size: 30;
-font-family: 'Times New Roman', Times, serif;
-justify-content: center;
+/* Background halaman */
+body {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    color: #2c2c2c;
+    line-height: 1.8;
+    padding: 40px;
+}
+
+/* Judul utama */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #6f1d1b;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+/* Subjudul */
+h2 {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #99582a;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+/* List */
+ol {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    padding-left: 25px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+ol li {
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+}
+
+/* Divider & isi cerita */
+.hr {
+    max-width: 900px;
+    margin: 0 auto 40px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Garis */
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #6f1d1b, transparent);
+    margin: 25px 0;
+}
+
+/* Paragraf cerita */
+.hr {
+    font-size: 1.05rem;
+    text-align: justify;
+}
+
+/* Penutup */
+body > h1:last-of-type {
+    max-width: 900px;
+    margin: 40px auto 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+    color: #432818;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
