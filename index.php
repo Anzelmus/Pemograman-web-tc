@@ -1,27 +1,35 @@
-<?php
-$koneksi = mysqli_connect(
-    "localhost",
-    "root",
-    "",
-    "12_pplg1"
-);
-echo var_dump($koneksi)
-// var_dump melihat isi dari varialbel yang sudsh dbuat we
-
- 
-?>
-
+<?php include 'fungsi.php';?>
 <html>
     <head>
-        <title>
-            php oop
-        </title>
+        <title>Zodiak</title>
     </head>
     <body>
-        <h1>koneksi</h1>
-        <?php echo $koneksi?>
-        <br>
-        <?= $koneksi?>
-        <hr>
+        <h1>Pilih Zodiak Anda = <?php 
+        echo $x->cek_zodiac(
+            $x->cek_data("tgl"),
+                $x->cek_data("bulan")
+        );
+        ?></h1>
+        <form action="" method="get">
+            <label for="">Bulan</label>
+            <select name="bulan">
+                <option value="1">Januari</option>
+                <option value="2">Februari</option>
+                <option value="3">Maret</option>
+                <option value="4">April</option>
+                <option value="5">Mei</option>
+                <option value="6">Juni</option>
+                <option value="7">Juli</option>
+                <option value="8">Agustus</option>
+                <option value="9">September</option>
+                <option value="10">Oktober</option>
+                <option value="11">November</option>    
+                <option value="12">Desember</option>
+            </select>
+            <br>
+            <label for="">tanggal</label>
+            <input type="number" name="tgl">
+            <input type="submit" name="Cek Zodiak">
+        </form>
     </body>
 </html>
